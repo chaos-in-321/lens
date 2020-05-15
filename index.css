@@ -1,5 +1,5 @@
 html,body{
-  background-image: url("img/deerbackground"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+  background-image: url("img/deerbackground.jpg"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
   background-repeat: no-repeat;
   background-color: transparent;
   background-position: center center;
