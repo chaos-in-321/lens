@@ -84,10 +84,11 @@ html,body{
   border-radius: 18px;
   width: 200px;
   border: none;
+  outline:none;
 }
 .btn-white{
   background-color: transparent;
-
+  outline:none;
   color: white;
   border-radius: 18px;
   width: 200px;
