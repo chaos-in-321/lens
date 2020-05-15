@@ -1,0 +1,119 @@
+html,body{
+  background-image: url("img/deerbackground"), linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: overlay;
+  font-family: 'Roboto'
+}
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  text-decoration: underline;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  text-decoration: underline;
+  color: white;
+}
+.profile {
+  float: right;
+  display: block;
+  padding: 8px;
+  color: #f2f2f2
+}
+
+.profile-text{
+  font-size: 15px;
+  text-align: right;
+}
+.profile-designation{
+  font-size: 10px;
+  text-align: right;
+}
+
+.profile-pic{
+  padding-top: 12px;
+  color: white;
+  display: inline-block;
+  float: right;
+}
+.searchbar{
+  text-align:center;
+  padding-top: 20%;
+}
+.searchbar input[type=text]{
+  border-top-left-radius:17px;
+  border-bottom-left-radius:17px;
+  padding-left: 1%;
+  border: none;
+  width: 500px;
+  height: 33px;
+}
+.searchbar button{
+  border-top-right-radius:17px;
+  border-bottom-right-radius:17px;
+  border:none;
+  height: 33px;
+}
+.searchbar i {
+  padding-right: 20%
+}
+.column-left {
+  float: right;
+}
+.btn-blue {
+  background-color: rgb(26,79,148);
+  color: white;
+  border-radius: 18px;
+  width: 200px;
+  border: none;
+}
+.btn-white{
+  background-color: transparent;
+
+  color: white;
+  border-radius: 18px;
+  width: 200px;
+  border: 1px solid rgb(26,79,148);
+}
+#footer {
+  position : fixed;
+  bottom : 0;
+  height : 40px;
+  margin-top : 40px;
+  width: 100%;
+  background-color: black;
+}
+.column-footer{
+  padding-top: 1%;
+  padding-left: 1%;
+  color: white;
+}
+.column-footer-right{
+  padding-top: 1%;
+  color: white;
+  text-align: right;
+  float: right;
+  width: 100%;
+}
+.column-footer-right a{
+  padding-right: 2%;
+  color: white;
+}
